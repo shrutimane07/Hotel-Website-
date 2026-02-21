@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title>Welcome to Hotel Sayaji</title>
+</head>
+<body bgcolor="#ffffe6">
+
+
+
+    <center>
+        
+        <h1><font color="#2f4f4f"><i><u>🏨 Hotel Sayaji, Kolhapur</u></i></font></h1>
+
+        <h3>
+            <marquee behavior="alternate" scrollamount="12" direction="left" width="60%">
+                <font color="#4169e1">✨ Welcome to the Royal Experience at Hotel Sayaji ✨</font>
+            </marquee>
+        </h3>
+
+
+</body>
+</html>

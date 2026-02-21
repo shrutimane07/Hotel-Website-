@@ -1,0 +1,73 @@
+<html>
+<head>
+    <title>Room Booking Form</title>
+</head>
+<body bgcolor="#FFF8DC"> 
+    <center><h1>Hotel Room Booking</h1></center>
+    <form name="bookingForm">
+        <table border="2" align="center" cellpadding="7" bgcolor="#E0FFFF"> 
+            <tr>
+                <td><b>Full Name</b></td>
+                <td><input type="text" name="fullname" required></td>
+            </tr>
+            <tr>
+                <td><b>Age</b></td>
+                <td><input type="number" name="age" min="18" required></td>
+            </tr>
+            <tr>
+                <td><b>Email</b></td>
+                <td><input type="text" name="email" required></td>
+            </tr>
+            <tr>
+                <td><b>Phone Number</b></td>
+                <td><input type="number" name="phone" required></td>
+            </tr>
+            <tr>
+                <td><b>Aadhar Card No.</b></td>
+                <td><input type="text" name="aadhar" maxlength="12" required></td>
+            </tr>
+            <tr>
+                <td><b>Upload Aadhar Document</b></td>
+                <td><input type="file" name="aadhar_doc" accept=".pdf,.jpg,.jpeg,.png" required></td>
+            </tr>
+            <tr>
+                <td><b>Room Type</b></td>
+                <td>
+                    <select name="roomtype" required>
+                        <option value="">Select</option>
+                        <option value="AC ROOM">AC</option>
+                        <option value="NON-AC ROOM">NON-AC</option>
+                        <option value="DELUX">DELUX</option>
+                        <option value="SUITE">SUITE</option>
+                    </select>
+                </td>
+            </tr>
+			<tr>
+                <td><b>Room Number</b></td>
+                <td><input type="text" name="room_number" required></td>
+            </tr>	
+            <tr>
+                <td><b>Number of Guests</b></td>
+                <td><input type="number" name="guests" min="1" required></td>
+            </tr>
+            <tr>
+                <td><b>Check-in Date</b></td>
+                <td><input type="date" name="checkin" required></td>
+            </tr>
+            <tr>
+                <td><b>Check-out Date</b></td>
+                <td><input type="date" name="checkout" required></td>
+            </tr>
+            <tr>
+                <td><b>Special Requests</b></td>
+                <td><textarea name="requests" rows="4" cols="20"></textarea></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Book Now"></td>
+                <td><input type="reset" value="Cancel"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
+ 
